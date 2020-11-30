@@ -16,4 +16,9 @@ When send mail and validate the operation
 |anushauks@gmail.com					|Hi			|Anusha		|
 |gchandrakala12@gmail.com			|Hi			|Chandu		|
 |venu.srivenu@gmail.com				|Hi			|Venu			|
+|nuka.geeta@gmail.com					|Hi			|Geeta		|
+|satheeshreddy9494@gmail.com	|Hi			|Satheesh	|
+|himajasap@gmail.com					|Hi			|Himaja		|
+|qavinnu@gmail.com						|Hi			|Vinod		|
+When do logout
 When close site

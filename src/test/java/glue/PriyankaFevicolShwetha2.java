@@ -70,7 +70,7 @@ public class PriyankaFevicolShwetha2
 		}
 	}
 	
-	@When("^do logout and validate logout$")
+	@When("^do logout$")
 	public void method8() throws Exception
 	{
 		sh.wait.until(ExpectedConditions.visibilityOf(sh.cp.comp));
@@ -78,6 +78,11 @@ public class PriyankaFevicolShwetha2
 		sh.wait.until(ExpectedConditions.visibilityOf(sh.lop.signout));
 		sh.lop.clickSignout();
 		Thread.sleep(5000);
+	}
+	
+	@Then("^validate logout$")
+	public void method9()
+	{
 		//Validations
 		try
 		{
@@ -93,5 +98,5 @@ public class PriyankaFevicolShwetha2
 			sh.s.embed(b,"Logout test failed");
 			Assert.assertTrue(false);
 		}
-	}	
+	}
 }
