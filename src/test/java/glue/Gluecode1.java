@@ -53,7 +53,7 @@ public class Gluecode1
 		{
 			byte[] b=sh.driver.getScreenshotAs(OutputType.BYTES);
 			sh.s.embed(b,"Title test failed");
-			Assert.assertTrue(true);
+			Assert.assertTrue(false);
 		}
 	}
 	
