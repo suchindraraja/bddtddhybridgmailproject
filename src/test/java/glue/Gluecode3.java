@@ -2,17 +2,16 @@ package glue;
 
 import java.util.List;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.When;
 
-public class PriyankaFevicolShwetha3
+public class Gluecode3
 {
 	Shared sh;
 	
-	public PriyankaFevicolShwetha3(Shared sh)
+	public Gluecode3(Shared sh)
 	{
 		this.sh=sh;
 	}

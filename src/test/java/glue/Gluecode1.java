@@ -15,11 +15,11 @@ import pages.Homepage;
 import pages.Loginpage;
 import pages.Logoutpage;
 
-public class PriyankaFevicolShwetha1
+public class Gluecode1
 {
 	Shared sh;
 	
-	public PriyankaFevicolShwetha1(Shared sh)
+	public Gluecode1(Shared sh)
 	{
 		this.sh=sh;
 	}

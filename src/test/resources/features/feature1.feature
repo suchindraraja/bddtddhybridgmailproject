@@ -1,6 +1,6 @@
 Feature: Title test
 
-@rohantest
+@smoketest
 Scenario: Validate gmail title test
 Given launch site
 Then title should be "Gmail" for homepage

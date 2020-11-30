@@ -8,11 +8,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class PriyankaFevicolShwetha2
+public class Gluecode2
 {
 	Shared sh;
 	
-	public PriyankaFevicolShwetha2(Shared sh)
+	public Gluecode2(Shared sh)
 	{
 		this.sh=sh;
 	}
