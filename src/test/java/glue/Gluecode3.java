@@ -25,12 +25,16 @@ public class Gluecode3
 			String rp=data.get(i).get(0);
 			String sub=data.get(i).get(1);
 			String body=data.get(i).get(2);
+			String attachment=data.get(i).get(3);
 			sh.cp.clickCompose();
 			sh.wait.until(ExpectedConditions.visibilityOf(sh.cp.toaddress));
 			sh.cp.fillTo(rp);
 			sh.cp.fillSubject(sub);
 			sh.cp.fillBody(body);
+			sh.cp.attachment(attachment);
+			sh.wait.until(ExpectedConditions.visibilityOf(sh.cp.uploaded));
 			sh.cp.clickSend();
+			sh.wait.until(ExpectedConditions.visibilityOf(sh.cp.outputmsg));
 			sh.wait.until(ExpectedConditions.elementToBeClickable(sh.cp.comp));	
 		}	
 	}

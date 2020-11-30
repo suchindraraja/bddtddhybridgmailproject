@@ -71,7 +71,7 @@ public class Composepage
 	public void attachment(String x) throws Exception
 	{
 		attach.click();
-		Thread.sleep(5000); //wait for file upload window to open
+		Thread.sleep(3000); //wait for file upload window to open
 		StringSelection f=new StringSelection(x);
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(f,null);
 		Robot r=new Robot();
@@ -79,7 +79,7 @@ public class Composepage
 		r.keyPress(KeyEvent.VK_V);
 		r.keyRelease(KeyEvent.VK_V);
 		r.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		r.keyPress(KeyEvent.VK_ENTER);
 		r.keyRelease(KeyEvent.VK_ENTER);
 		Thread.sleep(1000); //time to close upload window
