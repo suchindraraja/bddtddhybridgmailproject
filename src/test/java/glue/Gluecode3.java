@@ -17,7 +17,7 @@ import io.cucumber.java.en.When;
 
 public class Gluecode3
 {
-	Shared sh;
+	public Shared sh;
 	
 	public Gluecode3(Shared sh)
 	{

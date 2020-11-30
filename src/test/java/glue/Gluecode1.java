@@ -18,7 +18,7 @@ import pages.Logoutpage;
 
 public class Gluecode1
 {
-	Shared sh;
+	public Shared sh;
 	
 	public Gluecode1(Shared sh)
 	{
